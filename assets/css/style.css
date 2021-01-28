@@ -477,8 +477,9 @@ section {
     justify-content: center;
 }
 /* Temporary */
-.portfolio img {
+.portfolio img#powerhub {
     background-color: #FFF;
+    padding: 20px
 }
 
 .portfolio #portfolio-flters {
