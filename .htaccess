@@ -3,3 +3,5 @@ RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
 Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+
+AddType application/x-httpd-php .htm .html

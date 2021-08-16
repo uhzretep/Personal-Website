@@ -410,6 +410,27 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume .resume-link {
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.resume .resume-link:hover {
+    color: #0563bb;
+}
+
+.resume .resume-item .resume-item-tecnhologies {
+    font-style: italic;
+    font-size: 80%;
+    font-weight: 500;
+    text-transform: none;
+}
+
 .resume .resume-title {
     font-size: 26px;
     font-weight: 700;
@@ -432,7 +453,7 @@ section {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     color: #0563bb;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .resume .resume-item h5 {
@@ -441,6 +462,7 @@ section {
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -477,9 +499,9 @@ section {
     justify-content: center;
 }
 /* Temporary */
-.portfolio img#powerhub {
+.portfolio img {
     background-color: #FFF;
-    padding: 20px
+    padding: 20px;
 }
 
 .portfolio #portfolio-flters {
